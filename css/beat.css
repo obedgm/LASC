@@ -17,9 +17,9 @@
 }
 
 
-#navigation .login-header>li>a:focus .equalizer, 
-#navigation .login-header>li.active>a .equalizer, 
-#navigation .login-header>li>a:hover .equalizer,
+#navigation .login-header>a:focus .equalizer, 
+#navigation .login-header>.active>a .equalizer, 
+#navigation .login-header>a:hover .equalizer,
 #navigation .login-header>.active>a .equalizer, 
 #navigation .login-header>.active>a:focus .equalizer, 
 #navigation .login-header>.active>a:hover .equalizer {

@@ -136,9 +136,10 @@ jQuery(function ($) {
 		}); 
 
 		$(".albums-slider").owlCarousel({
-			items:4,
+			items:10,
+            loop: true,
 			nav:true,
-			autoplay:true,
+			autoplay: 2500,
 			dots:false,
 			navText: [
     			"<i class='fa fa-angle-left'></i>",
@@ -150,19 +151,19 @@ jQuery(function ($) {
                     slideBy:1
                 },
                 480: {
-                    items: 2,
+                    items: 1,
                     slideBy:1
                 },
                 768: {
-                    items: 3,
+                    items: 1,
                     slideBy:1
                 },
                 991: {
-                    items:4,
+                    items:1,
                     slideBy:1
                 },
             }   
-		});  
+		}); 
 	}());      
          
          
