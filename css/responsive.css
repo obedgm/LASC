@@ -1,6 +1,10 @@
 /* lg */ 
 @media (min-width: 1400px) {
 
+    .album-item h3{
+        margin-left: 10%;
+    }
+    
     .pop,
     .rock,
     .urbano,
@@ -29,7 +33,7 @@
     }
 
 	.home-banner.banner .home-content {
-	    padding-bottom: 200px;
+	    padding-bottom: 360px;
 	    padding-top: 250px;
 	}	
     
@@ -46,10 +50,30 @@
         left: 30px;
     }
     
+    .row {
+        margin-top: -50px;
+    }
+    
+    
     
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+    
+    
+    .album-item h3{
+        margin-left: 10%;
+    }
+    
+    
+    .home-banner.banner .home-content {
+	    padding-bottom: 360px;
+	    padding-top: 250px;
+	}	
+    
+    .row {
+        margin-top: -50px;
+    }
     
     .pop,
     .rock,
@@ -78,8 +102,6 @@
     }
     
     
-    
-    
     .login-header {
         left: 210px;
     }
@@ -96,6 +118,20 @@
 
 /* md */
 @media (min-width: 990px) and (max-width: 1199px) {
+    
+    .album-item h3{
+        margin-left: 10%;
+    }
+    
+    
+    .home-banner.banner .home-content {
+	    padding-bottom: 360px;
+	    padding-top: 250px;
+	}
+    
+    .row {
+        margin-top: -50px
+    }
     
     .pop,
     .rock,
@@ -321,7 +357,17 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
     
+    .album-item h3{
+        margin-left: 10%;
+    }
     
+    
+    
+    .home-banner.banner .home-content {
+	    padding-bottom: 500px;
+	    padding-top: 250px;
+        margin-bottom: 220px;
+	}	
     
     .pop,
     .rock,
@@ -362,7 +408,7 @@
     
     
     .row {
-        margin: -60px;
+        margin: -50px;
     }
     
 	#navigation .navbar-nav>li>a {
@@ -774,6 +820,12 @@
 /* xs */
 @media (max-width: 767px) {
     
+    .home-banner.banner .home-content {
+	    padding-bottom: 500px;
+	    padding-top: 250px;
+        margin-bottom: 450px;
+	}	
+    
     .pop,
     .rock,
     .urbano,
@@ -811,11 +863,6 @@
         top: -35px;
         left: 25px;
     }
-    
-    .col-sm-3 {
-        left: 30px;
-    }
-    
     
 	
 	#navigation .navbar:after {
@@ -989,8 +1036,8 @@
 	}
 
 	.section-padding {
-		padding-top: 30px;
-		padding-bottom: 40px;
+		padding-top: 2px;
+		padding-bottom: 1px;
 	}
 	
 	.artists-section .section-title,

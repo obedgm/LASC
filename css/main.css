@@ -158,8 +158,8 @@ a:focus, button:focus, .btn:focus,
 }
 
 .section-padding {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 1px;
+    padding-bottom: 2px;
 }
 
 .bg-image {
@@ -176,10 +176,10 @@ a:focus, button:focus, .btn:focus,
 
 .section-title h1,
 .page-title h1 {
-    font-size: 12px;
-    letter-spacing: 14px;
+    font-size: 40px;
+    font-weight: 100px;
     color: #ff5900;
-    font-family: 'allerbold';
+    font-family: 'aller_displayregular';
 }
 
 .section-title h2,
@@ -242,7 +242,6 @@ a:focus, button:focus, .btn:focus,
 
 .bg-transparent {
     background-color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 30px;
 }
 
 .page-title {
@@ -1375,7 +1374,7 @@ ul.sub-menu {
 
 /* Products Details */
 
-.products-slider .owl-prev,
+.products-sliderf .owl-prev,
 .products-slider .owl-next {
     position: absolute;
     top: 50%;
@@ -1857,7 +1856,7 @@ ul.sub-menu {
 /* Blog Section */
 
 .blog-section .section-title {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .entry-post {
@@ -3470,7 +3469,9 @@ textarea.form-control {
 }
 
 .album-image {
-    max-height: 510px;
+    height: auto;
+    max-width: 80%; 
+    margin: auto;
     position: relative;
     overflow: hidden;
     text-align: center;
