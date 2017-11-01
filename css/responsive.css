@@ -1,8 +1,15 @@
 /* lg */ 
 @media (min-width: 1400px) {
 
+    .prize-text {
+        font-size: 30px;
+        margin-right: 0;
+    }
+    
+    
     .album-item h3{
         margin-left: 10%;
+        margin-top
     }
     
     .pop,
@@ -61,6 +68,11 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
     
     
+    .prize-text {
+        font-size: 30px;
+        margin-right: 65px;
+    }
+
     .album-item h3{
         margin-left: 10%;
     }
@@ -118,6 +130,11 @@
 
 /* md */
 @media (min-width: 990px) and (max-width: 1199px) {
+    
+    .prize-text {
+        font-size: 30px;
+        margin-right: 65px;
+    }
     
     .album-item h3{
         margin-left: 10%;
@@ -356,6 +373,11 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+    
+    .prize-text {
+        font-size: 30px;
+        margin-right: 80px;
+    }
     
     .album-item h3{
         margin-left: 10%;
@@ -819,6 +841,12 @@
 
 /* xs */
 @media (max-width: 767px) {
+    
+    .prize-text {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    
     
     .home-banner.banner .home-content {
 	    padding-bottom: 500px;

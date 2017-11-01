@@ -38,6 +38,7 @@
 
 .prize-text {
     font-size: 30px;
+    margin-right: 65px;
 }
 
 
@@ -240,8 +241,17 @@ a:focus, button:focus, .btn:focus,
 	background-color:#FFF;
 }
 
-.bg-transparent {
-    background-color: rgba(0, 0, 0, 0.7);
+.judge-section {
+    background-color: #ff5900;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+
+.artists-section {
+    background-color: #7f00fc;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .page-title {
@@ -358,6 +368,9 @@ a:focus, button:focus, .btn:focus,
     z-index: -1;  
 }
 
+.prize-title h2 {
+    color: #5800b0;
+}
 
 #navigation .navbar:after {
     position: absolute;
@@ -381,7 +394,10 @@ a:focus, button:focus, .btn:focus,
     border: none;
 }
 
-
+.prize-text {
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
 
 #navigation .navbar-collapse {
     float: left;
@@ -814,6 +830,8 @@ ul.sub-menu {
 .artists-section .section-title {
     margin-bottom: 50px;
 }
+
+
 
 .artists-overlay {
     position: absolute;
